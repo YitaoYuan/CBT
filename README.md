@@ -1,4 +1,6 @@
-# CBT(Concurrent Batching Tree)
+# CBT: Efficient Batch Processing for Concurrent Operations on Shared In-Memory Tree-Based Key-Value Stores
+
+CBT is short for Concurrent Batching Tree.
 
 ## 编译
 
