@@ -2,24 +2,28 @@
 
 CBT is short for Concurrent Batching Tree.
 
-## 编译
+## Compilation
 
-所有文件已经编译过了。
+All files have already been compiled.
 
-如果目录下有compile.sh，那么直接运行它。
+If there is a `compile.sh` file in the directory, run it directly.
 
-如果没有，那么直接make。
+If not, simply run `make`.
 
-## 运行
+## Running
 
-对于KV_multithread_loadbalance，使用
+For `KV_multithread_loadbalance`, use:
 
-`./selftest <NTHREADS> <NBATCH>` （建议NBATCH=12）
+`./selftest <NTHREADS> <NBATCH>` Recommended: `NBATCH=12`
 
-对于mica，使用
+For `mica`, use:
 
 `./run.sh <NTHREADS>`
 
-对于其他，使用
+For the others, use:
 
-`./selftest <NBATCH>`（建议NBATCH=8）和`./mttest <NTHREADS> <NBATCH>`
+`./selftest <NBATCH>` Recommended: `NBATCH=8`
+
+and
+
+`./mttest <NTHREADS> <NBATCH>`
